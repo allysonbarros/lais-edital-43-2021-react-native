@@ -18,7 +18,7 @@ yarn add -D json-server json-server-auth
 Para executar a API, basta executar o seguinte comando:
 
 ```
-json-server-auth --watch db.json --port 3004
+json-server-auth --watch db.json --host 0.0.0.0 --port 3004
 ```
 
 Com isso, a API estará disponível para acesso no endereço ```http://localhost:3004/``` podendo ser acessada externamente dentro da sua rede local pelo IP da sua máquina. Exemplo: ```http://192.168.0.13:3004/```.
